@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML: What It Is and How to Use It Correctly</title>
+</head>
+
+<body>
+    <h1>Semantic HTML: What It Is and How to Use It Correctly</h1>
+    <h2><u>Semantic HTML</u></h2>
+    <ul>
+        <li>Also known as semantic markup.</li>
+        <li>Refers to use of those HTML tags which convey meaning of the content contained within them which helps to
+            define the roles and importance of the different parts of web page.
+        </li>
+        <img src="./public/img1.png" alt="" width="500" height="500" srcset="">
+    </ul>
+    <h2><u>Why we need Symantic HTML tags?</u></h2>
+    <ul>
+        <li>Accessibility: Sighted users can see headers, footers etc. Of webpage but blind users can’t, so it helps in
+            their screen readers to communicate the webpage content properly.</li>
+        <li>SEO: These tags are important for SEO because they indicate the role of content within the tags. This
+            information gives search engine crawlers, like Googlebot, a better understanding of content. This increases
+            the chances that your content will be selected as candidate for the search engine results page (SERP) for
+            relevant keywords.</li>
+    </ul>
+    <h2><u>Types of HTML Semantic tags</u></h2>
+    <ul>
+        <li>For Structure</li>
+        <li>For Text</li>
+    </ul>
+    <h2><u>Semantic tags for Structure</u></h2>
+    <ul>
+        <li>Communicates the layout of page.</li>
+        <li>Introduced when HTML4 upgraded to HTML5, So also known as Semantic HTML5 tags.
+        </li>
+
+        <img src="./public/img2.png" alt="" width="400" height="500" srcset="">
+        <li>
+            &lt;header&gt;: Introduces the content of a page or section, like a title or logo.</br>
+            &lt;nav&gt;: Defines navigation links for the webpage.</br>
+            &lt;main&gt;: Contains the central content of the webpage. There should only be one per page.</br>
+            &lt;article&gt;: Represents self-contained content, like a blog post or news article.</br>
+            &lt;section&gt;: Groups related content together, but it's not necessarily independent.</br>
+            &lt;aside&gt;: Defines supplementary content, often used for sidebars.</br>
+            &lt;footer&gt;: Appears at the bottom of the webpage and contains information like copyright and contact
+            details. 
+        </li>
+    </ul>
+    <h2><u>Semantic tags for Text</u></h2>
+    <ul>
+        <br>Headings: &lt;h1&gt; for the main heading, &lt;h2&gt; to &lt;h6&gt; for subheadings (use &lt;h2&gt; most
+        often).</br>
+        Paragraph: &lt;p&gt; for a block of text.</br>
+        Link: &lt;a&gt; to create hyperlinks to other pages.</br>
+        Lists: &lt;ol&gt; for ordered lists with numbers, &lt;ul&gt; for unordered lists with bullets.</br>
+        Quotations: &lt;blockquote&gt; for long quotes, &lt;q&gt; for short inline quotes.</br>
+        Emphasis: &lt;em&gt; for regular emphasis, &lt;strong&gt; for strong emphasis.</br>
+        Code: &lt;code&gt; to display computer code.</br>
+        There are many more semantic tags available to add meaning to our content. &lt;summary&gt;, &lt;time&gt;,
+        &lt;address&gt;, &lt;video&gt;, etc.</br></li>
+    </ul>
+    <h2><u>Best Practices</u></h2>
+    <ul>
+        <li>Use semantic tags for meaning, not style: Don't misuse tags like &lt;h1&gt;
+            for larger font or &lt;blockquote&gt;
+            for
+            indentation. Use CSS for styling.</li>
+        <li>Nest headings logically: Headings (H1-H6) should reflect content hierarchy. H3 under H2 indicates a subtopic
+            of H2.</li>
+        <img src="./public/img3.png" alt="" width="500" height="500" srcset="">
+        <pre><code>
+            &lt;h1&gt;Main Topic&lt;/h1&gt;
+            &lt;h2&gt;Subtopic 1&lt;/h2&gt;
+            &lt;p&gt;Content for Subtopic 1&lt;/p&gt;
+            &lt;h2&gt;Subtopic 2&lt;/h2&gt;
+            &lt;p&gt;Content for Subtopic 2&lt;/p&gt;
+            &lt;h2&gt;Subtopic 3&lt;/h2&gt;
+            &lt;p&gt;Content for Subtopic 3&lt;/p&gt;
+        </code>
+    </pre>
+        <p>
+            The same advice—nesting tags by their meaning—applies to all the other semantic HTML tags.
+        </p>
+        <li>Your HTML implementation shouldn’t be a mere duplicate of the visual layout. Instead, it should follow the
+            semantic structure of the page.</li>
+        <img src="./public/img4.png" alt="" width="600" height="500" srcset="">
+    </ul>
+</body>
+
+</html>
